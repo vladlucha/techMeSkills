@@ -45,7 +45,7 @@ button{
     background-color: rgba(0, 0, 0, 0);
     font: 15px "OpenSans-Regular";
     color: #fff;
-    padding: 15px;
+    padding: 15px 30px;
     margin: 0 auto;
     border: none;
     outline: 2px solid #fff;
@@ -129,7 +129,37 @@ button:hover{
         background-color: #fff;
     }
 
-    
+/*footer*/
+
+footer{
+    padding: 35px 0 10px 0;
+    background-color: #212121;
+}
+
+
+footer .social {
+    width: 300px;
+    margin:  0 auto 15px auto;
+}
+
+    footer .social i{
+        color: #fff;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    footer .social i:hover{
+        color: #ff8b38;
+    }
+
+    footer .copyright{
+        color: #fff;
+        text-align: center;
+    }
+
+
+
+
 
 
 
