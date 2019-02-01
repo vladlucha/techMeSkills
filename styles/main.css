@@ -40,20 +40,38 @@ h3{
     justify-content: space-between;
 }
 
+button{
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    font: 15px "OpenSans-Regular";
+    color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    border: none;
+    outline: 2px solid #fff;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    color: #ff8b38;
+    outline: 2px solid #ff8b38;
+}
 
 
-/*section*/
 
-#section{
+/*section1*/
+
+.section{
     padding: 100px 0px;
 }
 
-    #section .item{
+    .section .item{
         width: 350px;
         text-align: center;
     }
 
-        #section .item .img{
+        .section .item .img{
             border-radius: 100%;
             border: 2px solid #ff8b38;
             width: 32px;
@@ -81,12 +99,42 @@ h3{
             height: 35px;
         }*/
 
-        #section .item .title{
+        .section .item .title{
             font: 20px "OpenSans-Bold";
             color: #333333;
             margin-bottom: 30px;
         }
 
-        #section .item .subtitle{
+        .section .item .subtitle{
             font-size: 14px;
         }
+
+/*section2*/
+
+.section2 .bg{
+   background: url('../imgs/bg.png') center no-repeat;
+   background-size: cover;
+   padding: 75px 0;
+}
+
+.section2 h3{
+    color: #fff;
+}
+
+.section .title{
+    margin-bottom: 35px;
+}
+
+    .section2 .title .line{
+        background-color: #fff;
+    }
+
+    
+
+
+
+
+
+
+
+
