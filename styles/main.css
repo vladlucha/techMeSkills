@@ -15,6 +15,10 @@ body{
     margin-bottom: 80px;
 }
 
+.titleWhite{
+    color: #fff;
+}
+
 h3{
     color: #212121;
     font: 36px 'Raleway-Regular';
@@ -27,6 +31,10 @@ h3{
     height: 2px;
     background-color: #ff8b38;
     margin: 30px auto;
+}
+
+.lineWhite{
+    background-color: #fff;
 }
 
 .subtitle{
@@ -58,76 +66,47 @@ button:hover{
     outline: 2px solid #ff8b38;
 }
 
-
-
-/*section1*/
-
 .section{
     padding: 100px 0px;
 }
 
-    .section .item{
-        width: 350px;
-        text-align: center;
+
+
+/*section1*/
+
+.section .item{
+    width: 350px;
+    text-align: center;
+}
+
+    .section .item .img{
+        border-radius: 100%;
+        border: 2px solid #ff8b38;
+        width: 32px;
+        margin: 0 auto 35px auto;
+        font-size: 32px;
+        padding: 32px;
+        color: #ff8b38;
     }
 
-        .section .item .img{
-            border-radius: 100%;
-            border: 2px solid #ff8b38;
-            width: 32px;
-            margin: 0 auto 35px auto;
-            font-size: 32px;
-            padding: 32px;
-            color: #ff8b38;
-        }
+    .section .item .title{
+        font: 20px "OpenSans-Bold";
+        color: #333333;
+        margin-bottom: 30px;
+    }
 
-        /*#section .item .lamp{
-            background: url('../imgs/lamp.png') center no-repeat;
-            width: 35px;
-            height: 35px;
-        }
+    .section .item .subtitle{
+        font-size: 14px;
+    }
 
-        #section .item .keyboard{
-            background: url('../imgs/keyboard.png') center no-repeat;
-            width: 35px;
-            height: 35px;
-        }
+/*section3*/
 
-        #section .item .flash{
-            background: url('../imgs/flash.png') center no-repeat;
-            width: 35px;
-            height: 35px;
-        }*/
-
-        .section .item .title{
-            font: 20px "OpenSans-Bold";
-            color: #333333;
-            margin-bottom: 30px;
-        }
-
-        .section .item .subtitle{
-            font-size: 14px;
-        }
-
-/*section2*/
-
-.section2 .bg{
+.section .bg{
    background: url('../imgs/bg.png') center no-repeat;
    background-size: cover;
    padding: 75px 0;
 }
 
-.section2 h3{
-    color: #fff;
-}
-
-.section .title{
-    margin-bottom: 35px;
-}
-
-    .section2 .title .line{
-        background-color: #fff;
-    }
 
 /*footer*/
 
