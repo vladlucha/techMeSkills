@@ -111,6 +111,14 @@ button:hover{
         width: 30%;
         text-align: center;
         color: #fff;
+        cursor: pointer;
+        opacity: 0.9;
+        transition: 0.3s;
+    }
+
+    .section .plan:hover{
+        opacity: 1;
+        box-shadow: 4px 4px 42px -1px rgba(0,0,0,0.28);
     }
 
         .section .plan .header{ 
