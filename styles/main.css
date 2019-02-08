@@ -198,12 +198,12 @@ button:hover{
         border-bottom: 1px solid #ff9b51;        
     }
 
-    .side input::placeholder{
+    .side input::placeholder, .side textarea::placeholder{
         color: #bdbdbd;
     }
 
     .side textarea{
-        height: 200px;
+        height: 205px;
         resize: none;
     }
 
