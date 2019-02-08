@@ -180,6 +180,52 @@ button:hover{
    padding: 75px 0;
 }
 
+/*section4*/
+
+.side{
+    width: 45%;
+}
+    .side input, .side textarea{
+        width: 100%;
+        margin-bottom: 35px;
+        border: 0 solid red;
+        border-bottom: 1px solid #d6d6d6;
+        padding: 15px;
+    }
+
+    .side input:focus, .side textarea:focus{
+        outline: 0px;
+        border-bottom: 1px solid #ff9b51;        
+    }
+
+    .side input::placeholder{
+        color: #bdbdbd;
+    }
+
+    .side textarea{
+        height: 200px;
+        resize: none;
+    }
+
+    .formButton{
+        background-color: #ff9b51;
+        border-radius: 4px;
+        box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.64);
+        outline: none;
+        opacity: 0.9;
+        transition: 0.3s;
+    }
+
+    .formButton:hover{
+        color: #fff;
+        box-shadow: 0px 4px 18px -3px rgba(0,0,0,0.64);
+        border-radius: 4px;
+        outline: none;
+        opacity: 1;
+    }
+
+ 
+
 
 /*footer*/
 
