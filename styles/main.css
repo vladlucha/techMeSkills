@@ -5,10 +5,7 @@ body{
 }
 
 .container{
-    max-width: 1100px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0px 16px;
+   margin: 0 auto;
 }
 
 .title{
@@ -77,8 +74,8 @@ button:hover{
 /*section1*/
 
 .section .item{
-    width: 350px;
     text-align: center;
+    margin-bottom: 24px;
 }
 
     .section .item .img{
@@ -108,12 +105,12 @@ button:hover{
 }
 
     .section .plan{
-        width: 30%;
         text-align: center;
         color: #fff;
         cursor: pointer;
         opacity: 0.9;
         transition: 0.3s;
+        margin-bottom: 36px;
     }
 
     .section .plan:hover{
@@ -182,47 +179,44 @@ button:hover{
 
 /*section4*/
 
-.side{
-    width: 45%;
+.side input, .side textarea{
+    width: 100%;
+    margin-bottom: 35px;
+    border: 0 solid red;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 15px;
 }
-    .side input, .side textarea{
-        width: 100%;
-        margin-bottom: 35px;
-        border: 0 solid red;
-        border-bottom: 1px solid #d6d6d6;
-        padding: 15px;
-    }
 
-    .side input:focus, .side textarea:focus{
-        outline: 0px;
-        border-bottom: 1px solid #ff9b51;        
-    }
+.side input:focus, .side textarea:focus{
+    outline: 0px;
+    border-bottom: 1px solid #ff9b51;        
+}
 
-    .side input::placeholder, .side textarea::placeholder{
-        color: #bdbdbd;
-    }
+.side input::placeholder, .side textarea::placeholder{
+    color: #bdbdbd;
+}
 
-    .side textarea{
-        height: 205px;
-        resize: none;
-    }
+.side textarea{
+    height: 203px;
+    resize: none;
+}
 
-    .formButton{
-        background-color: #ff9b51;
-        border-radius: 4px;
-        box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.64);
-        outline: none;
-        opacity: 0.9;
-        transition: 0.3s;
-    }
+.formButton{
+    background-color: #ff9b51;
+    border-radius: 4px;
+    box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.64);
+    outline: none;
+    opacity: 0.9;
+    transition: 0.3s;
+}
 
-    .formButton:hover{
-        color: #fff;
-        box-shadow: 0px 4px 18px -3px rgba(0,0,0,0.64);
-        border-radius: 4px;
-        outline: none;
-        opacity: 1;
-    }
+.formButton:hover{
+    color: #fff;
+    box-shadow: 0px 4px 18px -3px rgba(0,0,0,0.64);
+    border-radius: 4px;
+    outline: none;
+    opacity: 1;
+}
 
  
 

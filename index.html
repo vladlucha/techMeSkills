@@ -8,6 +8,8 @@
     <link href="styles/fonts.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
     <link href="styles/flexboxgrid.min.css" rel="stylesheet">
+    <link href="styles/media.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
@@ -15,8 +17,8 @@
 </head>
 
 <body>
-<!--section1-->
-<div class="section">
+<!--section-->
+<div class="section" id="about">
     <div class="container">
         <div class="title">
             <h3>WHY THIS IS AWESOME</h3>
@@ -24,7 +26,7 @@
             <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="row">
-            <div class="item">
+            <div class="item col-lg-4 col-md-4 col-xs-12 col-sm-12">
                 <div class="img">
                     <i class="far fa-lightbulb"></i>
                 </div>
@@ -34,7 +36,7 @@
                     dolor sit amet lacus accumsan et viverra.
                 </div>
             </div>
-            <div class="item">
+            <div class="item col-lg-4 col-md-4 col-xs-12 col-sm-12">
                 <div class="img">
                     <i class="far fa-keyboard"></i>
                 </div>
@@ -44,7 +46,7 @@
                     dolor sit amet lacus accumsan et viverra.
                 </div>
             </div>
-            <div class="item">
+            <div class="item col-lg-4 col-md-4 col-xs-12 col-sm-12">
                 <div class="img">
                     <i class="fa fa-bolt"></i>
                 </div>
@@ -57,8 +59,8 @@
         </div>
     </div>
 </div>
-<!--section2-->
-<div class="section grayBg">
+<!--section-->
+<div class="section grayBg" id="pricing">
     <div class="container">
         <div class="title">
             <h3>PRICING OPTIONS</h3>
@@ -66,7 +68,7 @@
             <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div class="row align">
-            <div class="plan">
+            <div class="plan col-lg-4 col-md-4 col-xs-12 col-sm-12">
                 <div class="header">
                     <div class="titlePlan">Basik</div>
                     <div class="pricePlan">$<span>0</span></div>
@@ -81,7 +83,7 @@
                     <div class="feature">email support</div>
                 </div>
             </div>
-            <div class="plan">
+            <div class="plan col-lg-4 col-md-4 col-xs-12 col-sm-12">
                 <div class="header">
                     <div class="titlePlan">Professional</div>
                     <div class="pricePlan">$<span>19</span></div>
@@ -97,7 +99,7 @@
                     <div class="feature">email support</div>
                 </div>
             </div>
-            <div class="plan">
+            <div class="plan col-lg-4 col-md-4 col-xs-12 col-sm-12">
                 <div class="header">
                     <div class="titlePlan">Enterprise</div>
                     <div class="pricePlan">$<span>70</span></div>
@@ -115,7 +117,7 @@
         </div>
     </div>
 </div>
-<!--section3-->
+<!--section-->
 <div class="section sectionBG">
     <div class="container">
         <div class="title">
@@ -126,8 +128,8 @@
         <button>Download</button>
     </div>
 </div>
-<!--section4-->
-<div class="section">
+<!--section-->
+<div class="section" id="contact">
     <div class="container">
         <div class="title">
             <h3>CONTACT US</h3>
@@ -136,12 +138,12 @@
         </div>
         <form>
             <div class="row">
-                <div class="side">
+                <div class="side col-lg-6 col-md-6 col-xs-12 col-sm-12">
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
                     <input type="text" placeholder="Subject">
                 </div>
-                <div class="side">
+                <div class="side col-lg-6 col-md-6 col-xs-12 col-sm-12">
                     <textarea type="text"  placeholder="Message" class="input_text" ></textarea>
                 </div>
             </div>
@@ -152,7 +154,7 @@
 <!--footer-->
 <footer>
     <div class="container">
-        <div class="row social">
+        <div class="row social col-xs-12 col-md-12 col-lg-12">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"></a><i class="fab fa-twitter"></i></a>
             <a href="#"></a><i class="fab fa-google-plus-g"></i></a>

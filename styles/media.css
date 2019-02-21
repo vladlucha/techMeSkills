@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+    .container{
+        padding: 0px 16px;
+    }
+
+    .section{
+        padding: 64px 0px;
+    }
+
+    .title{
+        margin-bottom: 32px;
+    }
+
+    .side textarea{
+        height: 44px;
+        resize: none;
+    }
+}
