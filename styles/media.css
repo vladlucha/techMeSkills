@@ -42,4 +42,10 @@
     button{
         width: 100%;
     }
+
+    .socialSection .icons i{
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 24px;
+    }
 }

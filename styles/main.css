@@ -74,7 +74,6 @@ a{
     padding: 100px 0px;
 }
 
-
 /*header*/
 
 header{
@@ -109,85 +108,113 @@ header{
 
 /*sectionHeader*/
 
-.sectionHeader{
-
+.sectionHeader .bgHeader{
+    height: 100vh;
+    background: url("../imgs/bgHeader.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    padding-top: 70px;
+    align-items: center;
 }
-
-    .sectionHeader .bgHeader{
-        height: 100vh;
-        background: url("../imgs/bgHeader.png") center no-repeat;
-        background-size: cover;
-        display: flex;
-        position: relative;
-        padding-top: 70px;
-        align-items: center;
-
-    }
 
     .sectionHeader .bgHeader .row{
         align-items: center; 
     }
 
-    .sectionHeader .logo{
-        width: 170px;
-        height: 53px;
-        background-size: cover;
-        margin-bottom: 30px;
+        .sectionHeader .logo{
+            width: 170px;
+            height: 53px;
+            background-size: cover;
+            margin-bottom: 30px;
+        }
+
+        .sectionHeader .titleHeader{
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .sectionHeader .subtitle{
+            text-align: left; 
+            margin-bottom: 40px;
+            color: #86878b;
+        }
+
+        .sectionHeader .line{
+            margin: 0 0 40px 0;
+        }
+
+        .sectionHeader button{
+            margin: 0;
+        }
+
+        .sectionHeader .form{
+            width: 100%;
+            background-color: #fff;
+            border-radius: 4px;
+        }
+
+        .sectionHeader .form .head{
+            height: 50px;
+            text-align: center;
+            background-color: #f5f5f5;
+            font: 20px "OpenSans-Bold";
+            color: #333333;
+            line-height: 50px;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .sectionHeader .form .head span{
+            color:  #ff8b38;
+        }
+
+        .sectionHeader .form .forms{
+            padding: 16 36px;
+        }
+
+        .sectionHeader .form .content input{
+            margin-bottom: 24px;
+        }
+
+        .sectionHeader .form .content .formButton{
+            width: 100%;
+            border-radius: 0px 0px 4px 4px;
+        }
+
+/*social*/
+
+.socialSection{
+    padding: 20px 0px;
+    box-shadow: 0px 4px 7px -1px rgba(0,0,0,0.31);
+}
+
+.socialSection .text .socialTitle{
+        font: 20px "OpenSans-Bold";
+        color: #333;
+        margin-bottom: 5px;
     }
 
-    .sectionHeader .titleHeader{
-        color: #fff;
-        font-size: 36px;
-        margin-bottom: 40px;
-    }
-
-    .sectionHeader .subtitle{
-        text-align: left; 
-        margin-bottom: 40px;
+    .socialSection .text .socialSubTitle{
         color: #86878b;
     }
 
-    .sectionHeader .line{
-        margin: 0 0 40px 0;
+    .socialSection .icons i{
+        color: #000;;
+        font-size: 48px;
+        opacity: 0.2;
+        transition: 0.3s;
+        cursor: pointer;
+        line-height: 70px;
     }
 
-    .sectionHeader button{
-        margin: 0;
+    .socialSection .icons .row{
+        justify-content: space-around;
     }
 
-    .sectionHeader .form{
-        width: 100%;
-        background-color: #fff;
-        border-radius: 4px;
+    .socialSection .icons i:hover{
+        opacity: 0.5;
     }
-
-    .sectionHeader .form .head{
-        height: 50px;
-        text-align: center;
-        background-color: #f5f5f5;
-        font: 20px "OpenSans-Bold";
-        color: #333333;
-        line-height: 50px;
-        border-radius: 4px 4px 0 0;
-    }
-
-    .sectionHeader .form .head span{
-        color:  #ff8b38;
-    }
-
-    .sectionHeader .form .forms{
-        padding: 16 36px;
-    }
-
-    .sectionHeader .form .content input{
-        margin-bottom: 24px;
-    }
-
-    .sectionHeader .form .content .formButton{
-        width: 100%;
-        border-radius: 0px 0px 4px 4px;
-    }
-
 
 /*section1*/
 
@@ -284,7 +311,6 @@ header{
                 color: #86878b;
                 border-bottom: 1px solid #f5f5f5;
             }
-
 
 /*section3*/
 
