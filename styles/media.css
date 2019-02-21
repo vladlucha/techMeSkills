@@ -7,8 +7,21 @@
         padding: 64px 0px;
     }
 
+    .sectionHeader .side{
+        margin-bottom: 36px;
+    }
+
+    .sectionHeader .bgHeader {
+        height: auto;
+        padding-bottom: 36px;
+    }
+
     .title{
         margin-bottom: 32px;
+    }
+
+    header{
+        position: relative;
     }
 
     header .logo{
@@ -24,5 +37,9 @@
     .side textarea{
         height: 44px;
         resize: none;
+    }
+
+    button{
+        width: 100%;
     }
 }
