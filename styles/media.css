@@ -11,6 +11,16 @@
         margin-bottom: 32px;
     }
 
+    header .logo{
+        margin: 0 auto 16px auto;
+    }
+
+    header .row {
+        text-align: center;
+        justify-content: space-around;
+
+    }
+
     .side textarea{
         height: 44px;
         resize: none;
