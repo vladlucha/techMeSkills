@@ -45,6 +45,10 @@ h3{
     justify-content: space-between;
 }
 
+.row-mobile{
+  display: none;;
+}
+
 .align{
     align-items: flex-end;
 }
@@ -119,7 +123,7 @@ header{
 }
 
     .sectionHeader .bgHeader .row{
-        align-items: center; 
+        align-items: center;
     }
 
         .sectionHeader .logo{
@@ -136,7 +140,7 @@ header{
         }
 
         .sectionHeader .subtitle{
-            text-align: left; 
+            text-align: left;
             margin-bottom: 40px;
             color: #86878b;
         }
@@ -216,7 +220,54 @@ header{
         opacity: 0.5;
     }
 
-/*section1*/
+/*sectionFeatures*/
+
+.section  .tab{
+    height: 100px;
+    background-color: #333333;
+    cursor: pointer;
+    font: 15px "OpenSans-Bold";
+    color: #fff;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.9;
+    transition: 0.9s;
+    border: 1px solid #f5f5f5;
+}
+
+
+.section .active{
+    background-color:#ff8b38;
+}
+
+.section .tab:hover{
+    opacity: 1;
+}
+
+.section .titleFeatures{
+  font: 20px "OpenSans-Bold";
+  color: #000;
+  margin-bottom: 55px;
+}
+
+.section .textFeatures p{
+  margin-bottom: 28px;
+  color: #86878b;
+}
+
+.section .buttonFeatures{
+  float: left;
+}
+
+.section .imgBuilding{
+  background: url('../imgs/building.png') center no-repeat;
+  width:329px;
+  height: 253px;
+  float: right;
+}
+
+/*section3*/
 
 .section .item{
     text-align: center;
@@ -262,7 +313,7 @@ header{
         opacity: 1;
     }
 
-        .section .plan .header{ 
+        .section .plan .header{
             background: #2f2f2f;
         }
 
@@ -281,7 +332,7 @@ header{
                 .section .plan .header .pricePlan span{
                     font: 94px "OpenSans-Bold";
                 }
-            
+
             .section .plan .header .special{
                 background-color: #ff8b38;
                 text-transform: uppercase;
@@ -293,14 +344,14 @@ header{
                 color: #acacac;
                 height: 50px;;
                 line-height: 50px;
-                font-style: italic; 
+                font-style: italic;
             }
 
             .section .plan .header .border{
                 border-bottom: 10px solid #ff8b38;
             }
 
-        .section .plan .content{ 
+        .section .plan .content{
             background: #fff;
         }
 
@@ -332,7 +383,7 @@ input, .side textarea{
 
 input:focus, .side textarea:focus{
     outline: 0px;
-    border-bottom: 1px solid #ff9b51;        
+    border-bottom: 1px solid #ff9b51;
 }
 
 input::placeholder, .side textarea::placeholder{
@@ -388,15 +439,3 @@ footer .social {
         color: #fff;
         text-align: center;
     }
-
-
-
-
-
-
-
-
-
-
-
-

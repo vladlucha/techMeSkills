@@ -48,4 +48,29 @@
         line-height: 24px;
         margin-top: 24px;
     }
-}
+
+
+    .section .tabs{
+        margin-bottom: 16px;
+    }
+
+    .section .action{
+      background-color: #ff8b38;
+    }
+    .section .tab{
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .section .titleFeatures{
+      margin-bottom: 24px;
+    }
+
+    .section .buttonFeatures{
+      float: none;
+    }
+
+    .section .imgBuilding{
+      display: none;
+      }
+  }
