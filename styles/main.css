@@ -363,6 +363,56 @@ header{
                 border-bottom: 1px solid #f5f5f5;
             }
 
+.commentItem{
+  margin-bottom: 24px;
+}
+
+.commentItem .buble{
+  padding: 24px 12px;
+  font-style: italic;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  color: #86878b;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.commentItem .buble::after{
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 14px solid #f5f5f5;
+  position: absolute;
+  bottom: -14px;
+  left: 12px;
+}
+
+.commentItem .info{
+  display: flex;
+  align-items: center;
+}
+
+.commentItem .imgFace{
+  width: 70px;
+  height: 70px;
+  background: url('../imgs/face.png') center no-repeat;
+}
+
+.commentItem .text{
+  margin-left: 24px;
+}
+
+.commentItem .name{
+  font: 20px 'OpenSans-Bold';
+  color: #333333;
+}
+
+.commentItem .role{
+  color: #86878b;
+}
+
 /*section3*/
 
 .sectionBg{
