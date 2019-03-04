@@ -85,12 +85,12 @@
 .hamburger{
     width: 24px;
     height: 24px;
-    background-color: #fff;
+    background: url('../imgs/menu.png') center no-repeat;
 }
 .cross{
     width: 24px;
     height: 24px;
-    background-color: red;
+    background: url('../imgs/cross.png') center no-repeat;
 
 }
 .menu{
