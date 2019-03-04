@@ -53,7 +53,7 @@ h3{
     align-items: flex-end;
 }
 
-button{
+.button{
     display: block;
     background-color: rgba(0, 0, 0, 0);
     font: 15px "OpenSans-Regular";
@@ -64,7 +64,7 @@ button{
     outline: 2px solid #fff;
 }
 
-button:hover{
+.button:hover{
     cursor: pointer;
     color: #ff8b38;
     outline: 2px solid #ff8b38;
@@ -80,7 +80,12 @@ a{
 
 /*header*/
 
-header{
+.headerMobile{
+    display: none!important;
+}
+
+.headerDesktop{
+    display: block;
     background-color: #000;
     padding: 20px 0px;
     position: fixed;
@@ -94,18 +99,18 @@ header{
         background: url("../imgs/logo.png") center no-repeat;
     }
 
-    header .nav{
+    .headerDesktop .nav{
         line-height: 70px;
     }
 
-    header .row .item{
+    .headerDesktop .row .item{
         color: #fff;
         text-align: center;
         line-height: 30px;
         opacity: 0.8;
     }
 
-    header .row .item:hover{
+    .headerDesktop .row .item:hover{
         opacity: 1;
         color:  #ff8b38;
     }

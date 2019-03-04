@@ -17,22 +17,41 @@
 </head>
 
 <body>
-<!--header-->
-<header>
+<!--headerDesktop-->
+<header class="headerDesktop">
     <div class="container">
         <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
             <div class="logo"></div>
         </div>
         <div class="row col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <a href="features"><div class="item">Features</div></a>
+            <a href="#features"><div class="item">Features</div></a>
             <a href="#about"><div class="item">About</div></a>
             <a href="#pricing"><div class="item">Pricing</div></a>
-            <a href=""><div class="item">Reviews</div></a>
+            <a href="#reviews"><div class="item">Reviews</div></a>
             <a href="#contact"><div class="item">Contact</div></a>
         </div>
     </div>
     </div>
+</header>
+<!--headerMobile-->
+<header class="headerMobile">
+    <div class="row col-xs-12 col-sm-12">
+        <div class="logo"></div>
+        <div class="btns">        
+            <div class="hamburger"></div>
+            <div class="cross"></div>
+        </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <a href="#features"><li>Features</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#pricing"><li>Pricing</li></a>
+            <a href="#review"><li>Reviews</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </div> 
 </header>
 <!--sectionHead-->
 <div class="sectionHeader">
@@ -44,7 +63,7 @@
                     <div class="titleHeader">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
                     <div class="line"></div>
                     <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</div>
-                    <button>Download</button>
+                    <button class="button">Download</button>
                 </div>
                 <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                     <div class="form">
@@ -56,7 +75,7 @@
                                 <input type="email" placeholder="Email">
                                 <input type="password" placeholder="Password">
                                 </div>
-                                <button class="formButton">Get Started</button>
+                                <button class="button formButton">Get Started</button>
                             </form>
                         </div>
                     </div>
@@ -106,7 +125,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
               </div>
-              <button class="formButton buttonFeatures">Download</button>
+              <button class="button formButton buttonFeatures">Download</button>
             </div>
 
             <div class="img col-lg-4 col-md-6 col-sm-12 col-xs-12">
@@ -286,7 +305,7 @@
             <div class="line lineWhite"></div>
             <p class="subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
         </div>
-        <button>Download</button>
+        <button class="button">Download</button>
     </div>
 </div>
 <!--sectionContact-->
@@ -308,7 +327,7 @@
                     <textarea type="text"  placeholder="Message" class="input_text" ></textarea>
                 </div>
             </div>
-            <button class="formButton">Send Message</button>
+            <button class="button formButton">Send Message</button>
         </form>
     </div>
 </div>
@@ -331,4 +350,8 @@
 </footer>
 
 </body>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+
 </html>
